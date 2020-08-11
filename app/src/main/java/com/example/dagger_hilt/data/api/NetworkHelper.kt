@@ -1,4 +1,4 @@
-package com.example.dagger_hilt.ui
+package com.example.dagger_hilt.data.api
 
 import android.content.Context
 import android.net.ConnectivityManager

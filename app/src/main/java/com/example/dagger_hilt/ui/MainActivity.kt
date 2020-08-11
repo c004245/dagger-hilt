@@ -1,4 +1,4 @@
-package com.example.dagger_hilt
+package com.example.dagger_hilt.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.dagger_hilt.R
 import com.example.dagger_hilt.data.model.User
 import com.example.dagger_hilt.utils.Status
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.Observer
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
